@@ -4,7 +4,7 @@ import CategoryLabel from './CategoryLabel'
 
 export default function Post({ post, compact }) {
   return (
-    <div className='w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6'>
+    <div className='w-full  bg-white rounded-lg mt-6'>
       {!compact && (
         <Image
           src={post.frontmatter.cover_image}
@@ -14,6 +14,8 @@ export default function Post({ post, compact }) {
           className='mb-4 rounded'
         />
       )}
+
+      <div className="px-4 py-2">
       <div className='flex justify-between items-center'>
         <span className='font-light text-gray-600'>
           {post.frontmatter.date}
@@ -47,6 +49,8 @@ export default function Post({ post, compact }) {
           </div>
         </div>
       )}
+
+     </div>
     </div>
   )
 }
