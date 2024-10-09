@@ -4,7 +4,7 @@ import Search from './Search'
 
 export default function Layout({ title, keywords, description, children }) {
   return (
-    <div>
+    <div className='container'>
       <Head>
         <title>{title}</title>
         <meta name='keywords' content={keywords} />

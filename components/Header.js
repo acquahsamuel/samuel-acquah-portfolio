@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Header() {
   return (
-    <header className='bg-gray-900 text-gray-100 shadow w-full'>
+    <header className=' text-gray-500  w-full'>
       <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center'>
         <Link href='/'>
           <a className='flex md:w-1/5 title-font font-medium items-center md:justify-start mb-4 md:mb-0'>
@@ -15,6 +15,11 @@ export default function Header() {
           <Link href='/blog'>
             <a className='mx-5 cursor-pointer capitialize hover:text-indigo-300'>
               Blog
+            </a>
+          </Link>
+          <Link href='/about'>
+            <a className='mx-5 cursor-pointer capitialize hover:text-indigo-300'>
+              Projects
             </a>
           </Link>
           <Link href='/about'>

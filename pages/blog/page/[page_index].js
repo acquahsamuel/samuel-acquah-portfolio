@@ -11,8 +11,11 @@ export default function BlogPage({ posts, numPages, currentPage, categories }) {
   return (
     <Layout>
       <div className='flex justify-between flex-col md:flex-row'>
-        <div className='w-3/4 mr-10'>
+        <div className='mr-10'>
           <h1 className='text-5xl  font-bold'>Blog</h1>
+
+
+          <CategoryList categories={categories} />
 
           <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5'>
             {posts.map((post, index) => (
@@ -22,10 +25,7 @@ export default function BlogPage({ posts, numPages, currentPage, categories }) {
 
           <Pagination currentPage={currentPage} numPages={numPages} />
         </div>
-
-        <div className='w-1/4'>
-          <CategoryList categories={categories} />
-        </div>
+ 
       </div>
     </Layout>
   )

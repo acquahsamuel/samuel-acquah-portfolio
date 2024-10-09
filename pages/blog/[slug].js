@@ -13,7 +13,7 @@ export default function PostPage({
 }) {
   return (
     <Layout title={title}>
-      <div className='max-w-4xl mx-auto'>
+      <div className='#'>
       <Link href='/blog'>Go Back</Link>
       <div className='w-full  bg-white rounded-lg  mt-6'>
         <div className='flex justify-between items-center mt-4'>
