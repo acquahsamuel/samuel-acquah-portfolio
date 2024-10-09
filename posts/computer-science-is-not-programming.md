@@ -1,10 +1,10 @@
 ---
 title: 'Computer Science is not Programming'
-date: 'May 4, 2021'
+date: 'October 9, 2024'
 excerpt: 'Exploring the distinction between computer science and programming, and why not all computer science students are required to code.'
 cover_image: '/images/posts/img1.jpg'
 category: 'Business'
-author: 'John Doe'
+author: 'Samuel Acquah'
 author_image: 'https://randomuser.me/api/portraits/men/11.jpg'
 ---
 

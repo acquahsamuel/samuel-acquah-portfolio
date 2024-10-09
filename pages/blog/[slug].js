@@ -29,9 +29,12 @@ export default function PostPage({
               alt=''
               className='mx-4 w-10 h-10 object-cover rounded-full hidden sm:block'
             />
-            <h4>{author}</h4>
+            <div>
+              <h4>{author}</h4>
+              <div className='mr-4 text-xs'>{date}</div>
+            </div>
           </div>
-          <div className='mr-4'>{date}</div>
+        
         </div>
 
         <div className='blog-text mt-2'>

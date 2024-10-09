@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 export default function CategoryLabel({ children }) {
   const colorKey = {
-    HTML: 'orange',
-    CSS: 'lightblue',
+    HTML: 'red',
+    CSS: 'red',
     SaSS: 'pink',
     JavaScript: 'yellow',
     Git: 'lightgreen',
@@ -11,8 +11,8 @@ export default function CategoryLabel({ children }) {
     Nodejs: 'darkblue',
     Nestjs: 'rose',
     Nextjs: 'cyan',
-    Python: 'brown',
-    PHP: 'merlot',
+    Python: 'yellow',
+    PHP: 'pink',
     Business: 'green',
     Technology: 'teal',
     Consultatn: 'magenta',
@@ -20,7 +20,7 @@ export default function CategoryLabel({ children }) {
 
   return (
     <div
-      className={`px-2 py-1 bg-${colorKey[children]}-600 text-gray-100 font-normal text-sm rounded-full`}
+      className={`px-1 py-0.5  bg-${colorKey[children]}-600 text-gray-100 font-normal text-xs rounded-md`}
     >
       <Link href={`/blog/category/${children.toLowerCase()}`}>{children}</Link>
     </div>
