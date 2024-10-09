@@ -13,10 +13,11 @@ export default function PostPage({
 }) {
   return (
     <Layout title={title}>
+      <div className='max-w-4xl mx-auto'>
       <Link href='/blog'>Go Back</Link>
-      <div className='w-full px-10 py-6 bg-white rounded-lg  mt-6'>
+      <div className='w-full  bg-white rounded-lg  mt-6'>
         <div className='flex justify-between items-center mt-4'>
-          <h1 className='text-5xl mb-7'>{title}</h1>
+          <h1 className='text-3xl mb-7'>{title}</h1>
           <CategoryLabel>{category}</CategoryLabel>
         </div>
         <img src={cover_image} alt='' className='w-full rounded' />
@@ -36,6 +37,7 @@ export default function PostPage({
         <div className='blog-text mt-2'>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
+      </div>
       </div>
     </Layout>
   )
