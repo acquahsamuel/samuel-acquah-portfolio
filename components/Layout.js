@@ -49,8 +49,8 @@ export default function Layout({ title, keywords, description, image, children }
 }
 
 Layout.defaultProps = {
-  title: 'Acquah samuel-Software Engineer',
-  keywords: 'software engineer, devmode, coding, programming',
+  title: 'Acquah samuel-Software Engineer | .ts. + .js | Building Startups | Dev Tools | Opensource | Innovation | Growth | Consulting 🇬🇭',
+  keywords: 'software engineer, devmode, coding, programming, technology, writing',
   description: 'Am Samuel, I talk about technology, programming, business and personal development.',
   image: '/images/posts/img5.jpg'
 }
