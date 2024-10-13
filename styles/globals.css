@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* font-family: 'Monos', Courier, monospace; */
+  /* font-family: "Inter"; */
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: #262626;
+  color: #a7a4a4 !important;
+}
+
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 95rem;
+    /* background-color: #049669; */
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+    /* background-color: red; */
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    /* background-color: pink; */
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    /* background-color: #d1c409; */
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    /* background-color: violet; */
+  }
+}
+
+
+
+
+
+.blog-text ul,
+ol {
+  font-size: 110%;
+  line-height: 2.3;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.blog-text pre {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+  line-height: 2.3;
+}
+
+.blog-text h1 {
+  font-size: 35px;
+}
+
+.blog-text h2,
+.blog-text h3,
+.blog-text h4 {
+  font-size: 27px;
+}
+
+
+.blog-text p{
+  line-height: 1.5;
+  font-size: 15px !important;
+  /* border:  1px solid green; */
+}
+
+
+
+/* Fix category colors in production */
+.bg-yellow-600 {
+  background-color: #d97705;
+}
+.bg-blue-600 {
+  background: #3929eb;
+}
+.bg-green-600 {
+  background-color: #049669;
+}
+.bg-purple-600 {
+  background-color: #7730db;
+}
+.bg-red-600 {
+  background-color: #a70b34;
+}
+
+
+.bg-brown-600 {
+  background-color: #2e2e2e;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(216, 216, 216); 
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #242323; 
+}
+  
+
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;  /* Hide scrollbar for Internet Explorer and Edge */
+  scrollbar-width: none;      /* Hide scrollbar for Firefox */
+}
