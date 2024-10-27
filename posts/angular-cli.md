@@ -1,5 +1,5 @@
 ---
-title: 'Angular ClI and Basic Commands'
+title: 'Angular Cli and Basic Commands'
 date: 'October 9, 2024'
 excerpt: 'How to handle forms in Angular'
 cover_image: '/images/posts/img1.jpg'

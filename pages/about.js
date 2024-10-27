@@ -10,10 +10,10 @@ export default function AboutPage() {
       description:
         "A set of 450+ free MIT-licensed SVG icons. Available as basic SVG icons and via first-party React and Vue libraries.",
       subtitle:
-        "Building a free building tools and services for business to sell online",
+        "A competitor to Ebay and Jiji, allowing business and sellers sell online with easy and credibility",
       title: "Trenda",
-      startDate: "",
-      completeDate: "",
+      startDate: "September 2023",
+      completeDate: "Growth mode ",
       tags: [
         "Startup",
         "HTML",
@@ -23,7 +23,7 @@ export default function AboutPage() {
         "Deployment",
         "Documentation",
       ],
-      link: "#",
+      link: "https://www.trenda.live",
     },
     {
       image:
@@ -43,7 +43,7 @@ export default function AboutPage() {
         "Deployment",
         "Documentation",
       ],
-      link: "#",
+      link: "https://github.com/acquahsamuel/ghana-cities-with-regions",
     },
     {
       image:
@@ -85,7 +85,7 @@ export default function AboutPage() {
         "Deployment",
         "Documentation",
       ],
-      link: "#",
+      link: "https://github.com/acquahsamuel/Blondercss",
     },
     {
       image:
@@ -107,7 +107,7 @@ export default function AboutPage() {
         "Nestjs",
         "Documentation",
       ],
-      link: "#",
+      link: "https://github.com/acquahsamuel/cleansheet-ai-resume-builder",
     },
     {
       image:
@@ -127,7 +127,7 @@ export default function AboutPage() {
         "Github",
         "Domain configuration",
       ],
-      link: "#",
+      link: "https://www.victoryentertainmentempire.org",
     },
     {
       image:
@@ -146,37 +146,47 @@ export default function AboutPage() {
 
   const books = [
     {
-      title: "The Art of War",
+      title: "Think and Grow Rich",
       image:
         "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
     },
     {
-      title: "1984",
+      title: "Zero to One",
       image:
         "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
     },
     {
-      title: "To Kill a Mockingbird",
+      title: "Atomic Habits",
       image:
         "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
     },
     {
-      title: "To Kill a Mockingbird",
+      title: "Rich Dad Poor Dad",
       image:
         "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
     },
     {
-      title: "To Kill a Mockingbird",
+      title: "Founders at Work",
       image:
         "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
     },
     {
-      title: "To Kill a Mockingbird",
+      title: "Traction",
       image:
         "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
     },
     {
-      title: "To Kill a Mockingbird",
+      title: "How to win friends ",
+      image:
+        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+    },
+    {
+      title: "Personal MBA",
+      image:
+        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+    },
+    {
+      title: "Other People Money (OPM)",
       image:
         "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
     },
@@ -677,9 +687,9 @@ export default function AboutPage() {
                       {item.title}
                     </span>
                     <div className="text-sm">
-                      <Link href="/">Link </Link>
+                      <Link href="{item.link}">Link </Link>
                       <span className="mr-3"></span>
-                      <Link href="/">GitHub</Link>
+                      <Link href="{item.link}">GitHub</Link>
                     </div>
                   </div>
 

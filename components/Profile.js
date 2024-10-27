@@ -39,6 +39,7 @@ export default function ProfilePage() {
       <div className="social-handles my-5">
         <div className="flex">We can connect on</div>
         <div className="flex">
+         <Link href={"https://www.linkedin.com/in/acquahsamuel"}>
           <svg
             fill="#fff"
             version="1.1"
@@ -57,7 +58,11 @@ export default function ProfilePage() {
               <path d="M-78.2,357.8c-28.6,0-46.5,15.6-49.8,26.6v-25.1h-56.1c0.7,13.3,0,159.7,0,159.7h56.1v-86.3c0-4.9-0.2-9.7,1.2-13.1 c3.8-9.6,12.1-19.6,27-19.6c19.5,0,28.3,14.8,28.3,36.4V519h56.6v-88.8C-14.9,380.8-42.7,357.8-78.2,357.8z"></path>
             </g>
           </svg>
+          </Link>
 
+        
+
+          <Link href={"https://github.com/acquahsamuel"}>
           <svg
             width="17px"
             height="17px"
@@ -93,7 +98,11 @@ export default function ProfilePage() {
               </g>
             </g>
           </svg>
+          </Link>
 
+
+
+          <Link href={"https://github.com/acquahsamuel"}>
           <svg
             fill="#fff"
             width="17px"
@@ -109,7 +118,10 @@ export default function ProfilePage() {
               />
             </g>
           </svg>
+          </Link>
 
+
+          <Link href={"https://github.com/acquahsamuel"}>
           <svg
             width="17px"
             height="17px"
@@ -145,6 +157,8 @@ export default function ProfilePage() {
               </g>
             </g>
           </svg>
+          </Link>
+
         </div>
       </div>
 

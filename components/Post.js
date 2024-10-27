@@ -44,9 +44,9 @@ export default function Post({ post, compact }) {
             </div>
           </div>
 
-          <div className="absolute top-5 right-5">
-          {/* <CategoryLabel>{post.frontmatter.category}</CategoryLabel> */}
-          </div>
+          {/* <div className="absolute top-5 right-5">
+          <CategoryLabel>{post.frontmatter.category}</CategoryLabel>
+          </div> */}
         </div>
 
 

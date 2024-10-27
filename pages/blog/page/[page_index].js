@@ -11,7 +11,7 @@ import Search from '@/components/Search'
 export default function BlogPage({ posts, numPages, currentPage, categories }) {
   return (
     <Layout>
-      <div className='flex justify-between flex-col md:flex-row '>
+      <div className=''>
         <div className=''>
           <CategoryList categories={categories} />
           <Search />
@@ -26,6 +26,8 @@ export default function BlogPage({ posts, numPages, currentPage, categories }) {
     </Layout>
   )
 }
+
+
 
 export async function getStaticPaths() {
   const files = fs.readdirSync(path.join('posts'))

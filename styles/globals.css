@@ -56,7 +56,7 @@ body {
 
 
 
-
+/* 
 
 .blog-text ul,
 ol {
@@ -66,12 +66,7 @@ ol {
   margin: 10px 0;
 }
 
-.blog-text pre {
-  background: #f4f4f4;
-  padding: 20px;
-  margin: 20px 0;
-  line-height: 2.3;
-}
+
 
 .blog-text h1 {
   font-size: 35px;
@@ -86,10 +81,17 @@ ol {
 
 .blog-text p{
   line-height: 1.5;
-  font-size: 15px !important;
-  /* border:  1px solid green; */
-}
+  font-size: 16px !important;
+ 
+} */
 
+
+.blog-text pre {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+  line-height: 2.3;
+}
 
 
 /* Fix category colors in production */
