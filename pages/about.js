@@ -5,12 +5,9 @@ import Link from "next/link";
 export default function AboutPage() {
   const data = [
     {
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
-      description:
-        "A set of 450+ free MIT-licensed SVG icons. Available as basic SVG icons and via first-party React and Vue libraries.",
-      subtitle:
-        "A competitor to Ebay and Jiji, allowing business and sellers sell online with easy and credibility",
+      image: "https://placehold.co/600x400.png",
+      description: "A set of 450+ free MIT-licensed SVG icons. Available as basic SVG icons and via first-party React and Vue libraries.",
+      subtitle: "A competitor to Ebay and Jiji, allowing business and sellers sell online with easy and credibility",
       title: "Trenda",
       startDate: "September 2023",
       completeDate: "Growth mode ",
@@ -26,8 +23,7 @@ export default function AboutPage() {
       link: "https://www.trenda.live",
     },
     {
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+      image: "https://placehold.co/600x400.png",
       description:
         "Get a list of all Ghana cities and region for your project at ease",
       subtitle: "Collated resources of api of all regions and Cities in Ghana",
@@ -46,8 +42,7 @@ export default function AboutPage() {
       link: "https://github.com/acquahsamuel/ghana-cities-with-regions",
     },
     {
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+      image: "https://placehold.co/600x400.png",
       description:
         "This project is a free alternative to Tailwind CSS. Exploring and building a framework for building beautiful and modern websites.",
       subtitle:
@@ -67,8 +62,7 @@ export default function AboutPage() {
       link: "#",
     },
     {
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+      image: "https://placehold.co/600x400.png",
       description:
         "Blonder is a free VSCode theme that will enhance your coding experience. Donwload on github",
       subtitle:
@@ -88,8 +82,7 @@ export default function AboutPage() {
       link: "https://github.com/acquahsamuel/Blondercss",
     },
     {
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+      image: "https://placehold.co/600x400.png",
       description:
         "A set of 450+ free MIT-licensed SVG icons. Available as basic SVG icons and via first-party React and Vue libraries.",
       subtitle:
@@ -110,8 +103,7 @@ export default function AboutPage() {
       link: "https://github.com/acquahsamuel/cleansheet-ai-resume-builder",
     },
     {
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+      image: "https://placehold.co/600x400.png",
       description:
         "A set of 450+ free MIT-licensed SVG icons. Available as basic SVG icons and via first-party React and Vue libraries.",
       subtitle:
@@ -130,8 +122,7 @@ export default function AboutPage() {
       link: "https://www.victoryentertainmentempire.org",
     },
     {
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+      image: "https://placehold.co/600x400.png",
       description:
         "A set of 450+ free MIT-licensed SVG icons. Available as basic SVG icons and via first-party React and Vue libraries.",
       subtitle:
@@ -147,48 +138,39 @@ export default function AboutPage() {
   const books = [
     {
       title: "Think and Grow Rich",
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+      image: "https://placehold.co/600x400.png",
     },
     {
       title: "Zero to One",
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+      image: "https://placehold.co/600x400.png",
     },
     {
       title: "Atomic Habits",
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+      image: "https://placehold.co/600x400.png",
     },
     {
       title: "Rich Dad Poor Dad",
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+      image: "https://placehold.co/600x400.png",
     },
     {
       title: "Founders at Work",
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+      image: "https://placehold.co/600x400.png",
     },
     {
       title: "Traction",
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+      image: "https://placehold.co/600x400.png",
     },
     {
       title: "How to win friends ",
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+      image: "https://placehold.co/600x400.png",
     },
     {
       title: "Personal MBA",
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+      image: "https://placehold.co/600x400.png",
     },
     {
       title: "Other People Money (OPM)",
-      image:
-        "https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg",
+      image: "https://placehold.co/600x400.png",
     },
   ];
 
@@ -679,7 +661,10 @@ export default function AboutPage() {
 
         <ul className="">
           {data.map((item, index) => (
-            <div key={index} className="flex flex-col md:flex-row md:items-start justify-between my-5">
+            <div
+              key={index}
+              className="flex flex-col md:flex-row md:items-start justify-between my-5"
+            >
               <div className="order-1 mb-2 w-full md:w-4/5">
                 <h3 className="mb-1">
                   <div className="flex items-center">
