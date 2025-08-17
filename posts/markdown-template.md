@@ -1,18 +1,12 @@
 ---
-title: 'Django Crash Course'
-date: 'October 9, 2024'
-excerpt: 'Django is a very powerful, high level Python framework for building web applications'
+title: 'Markdown template'
+date: 'August 9, 2025'
+excerpt: 'Markdown template for coding samples'
 cover_image: '/images/posts/img6.jpg'
-category: 'Python'
+category: 'Computer Science'
 author: 'Samuel Acquah'
-author_image: 'https://randomuser.me/api/portraits/men/12.jpg'
+author_image: '/images/posts/profile.jpg'
 ---
-
-<!-- Markdown generator - https://jaspervdj.be/lorem-markdownum/ -->
-
-
-Would be updated soon!
-
  
 
 Far far away, behind the word mountains, far from the countries Vokalia and

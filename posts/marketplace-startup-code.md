@@ -1,7 +1,7 @@
 ---
 title: 'Building Marketplace Startup'
 date: 'October 9, 2024'
-excerpt: 'How to handle forms in Angular'
+excerpt: 'Marketplace startup'
 cover_image: '/images/posts/img1.jpg'
 category: 'Startups'
 author: 'Samuel Acquah'

@@ -5,7 +5,7 @@ excerpt: 'The most straightforward way of using XState with React is through loc
 cover_image: '/images/posts/img6.jpg'
 category: 'JavaScript'
 author: 'Sam Smith'
-author_image: 'https://randomuser.me/api/portraits/men/18.jpg'
+author_image: '/images/posts/profile.jpg'
 ---
 
 <!-- https://jaspervdj.be/lorem-markdownum/ -->

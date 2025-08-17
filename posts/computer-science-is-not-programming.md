@@ -5,7 +5,7 @@ excerpt: 'Exploring the distinction between computer science and programming, an
 cover_image: '/images/posts/img3.jpg'
 category: 'Computer Science'
 author: 'Samuel Acquah'
-author_image: 'https://randomuser.me/api/portraits/men/11.jpg'
+author_image: '/images/posts/profile.jpg'
 ---
 
 In today’s tech-driven world, there is a common misconception that **computer science** is synonymous with **programming**. While coding is a crucial skill within the field, it is merely one aspect of a much broader discipline. In this post, we will delve into the differences between computer science and programming, emphasizing that not every computer science student is expected to be a proficient coder.
